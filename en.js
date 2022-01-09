@@ -1,6 +1,14 @@
 // English (United Kingdom)
 // Translated by: Swôth#9990
 
+module.exports.$ = {
+    en: {
+        iso: "en",
+        name: "English",
+        country: "gb",
+    }
+};
+
 module.exports = {
     overview: require("../locales.config.js")["en"],
     navbar: {
